@@ -38,4 +38,4 @@ jobs:
         run: |
           IMAGE=ghcr.io/${{ github.repository_owner }}/demo-cicd-api:latest
           docker build -t $IMAGE ./Demo.CICD.Api
-          docker push $IMA
+          docker push $IMAGE
