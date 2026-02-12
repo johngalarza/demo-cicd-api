@@ -37,5 +37,5 @@ jobs:
       - name: Build and push Docker image
         run: |
           IMAGE=ghcr.io/${{ github.repository_owner }}/demo-cicd-api:latest
-          docker build -t $IMAGE ./Demo.CICD.Api
+          docker build -t $IMAGE ./
           docker push $IMAGE
